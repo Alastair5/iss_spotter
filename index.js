@@ -10,7 +10,7 @@ const { fetchMyIP, fetchCoordsByIP, fetchISSFlyOverTimes, nextISSTimesForMyLocat
 // });
 
 
-// fetchCoordsByIP('174.1.96.206', (error, coordinates) => {
+// fetchCoordsByIP(', (error, coordinates) => {
 //   if (error) {
 //     console.log("It didn't work!" , error);
 //     return;
@@ -18,7 +18,7 @@ const { fetchMyIP, fetchCoordsByIP, fetchISSFlyOverTimes, nextISSTimesForMyLocat
 //   console.log('It worked! Returned coordinates:' , coordinates);
 // });
 
-// const exampleCoords = { lat: 49.1251, lon: -122.6224 };
+// const exampleCoords = {};
 
 // fetchISSFlyOverTimes(exampleCoords, (error, passTimes) => {
 //   if (error) {
